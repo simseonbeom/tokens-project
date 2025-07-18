@@ -39,7 +39,7 @@ jobs:
       - name: Commit and push built tokens
         uses: EndBug/add-and-commit@v9
         with:
-          message: "change design tokens"
+          message: "chore: build design tokens automatically"
           add: "build"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
